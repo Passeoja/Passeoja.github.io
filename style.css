@@ -1,0 +1,45 @@
+.logo {
+    text-align: center;
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.sec {
+    position: relative; /*hr의 두번째 라인;*/
+    top: 5px;
+}
+
+
+.work {
+    text-align: center; /*소개*/
+}
+
+footer hr {
+    position: relative;
+    top: 150px;
+}
+
+footer div {
+    position: relative;
+    top: 180px;
+}
+
+.super {
+    float: left;
+}
+
+.rl {
+    float: right;
+}
+
+.last  {
+    text-align: center;
+}
+
+footer img {
+    position: relative;
+    top: -15px;
+    left: -40px;
+}
