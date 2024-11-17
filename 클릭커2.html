@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1분 카운트다운 박스 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ranking">
+    <h3>랭킹</h3>
+    <ol id="ranking-list">
+        <!-- 랭킹은 여기에 동적으로 추가됨 -->
+    </ol>
+</div>
+
+<div id="box-container">
+    <div id="nickname-container">
+        <input type="text" id="nickname" placeholder="닉네임을 입력하세요" />
+        <button id="start-btn" onclick="startGame()">시작</button>
+    </div>
+    <div id="color-box" onclick="changeColor()"><b>Click!</b></div>
+    <div id="counter">1:00</div>
+    <div id="click-counter">클릭 횟수: 0</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
