@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    top: 100px;
+}
+
+.a {
+    position: relative;
+    top: 100px;
+    border-radius: 50px;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    font-size: 40px;
+}
+.b {
+    position: relative;
+    top: 100px;
+    border-radius: 50px;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    font-size: 40px;
+}
+
+.get {
+    position: relative;
+    top: 120px;
+    border-radius: 5px;
+    background-color: rgba(69, 165, 0, 0.667);
+    width: 200px;
+    height: 50px;
+}

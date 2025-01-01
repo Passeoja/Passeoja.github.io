@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴컴</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <h1>뉴컴의 역설</h1>
+    <button class="a"><b>100000$</b></button>
+    <button class="b"><b>???????</b></button>
+</div>
+    <button class="get"><big>가져가기</big></button>
+
+    <script>
+        const a = document.querySelector('.a')
+        const b = document.querySelector('.b')
+        const get = document.querySelector('.get')
+
+        let clicka 
+        let clickb
+
+        b.onclick = function() {
+            b.style.backgroundColor = "rgba(69, 165, 0, 0.667)";
+            clickb = 1
+        }
+
+        a.onclick = function() {
+            a.style.backgroundColor = "rgba(69, 165, 0, 0.667)";
+            clicka = 1
+        }
+
+        get.onclick = function() {
+            if (clicka&&clickb) {
+                alert('당신의 금액: 100000$');
+            } else if(clickb) {
+                alert('당신의 금액: 1000000$');
+            } else {
+                alert('아무것도 선택하지 않으셨습니다.');
+            }
+        }
+    </script>
+</body>
+</html>
